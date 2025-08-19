@@ -16,7 +16,7 @@ degrees:
   institution:
     name: Tohoku University Graduate School of Information Sciences
     url: "https://www.is.tohoku.ac.jp/"
-- name: Bachelor of Computer Science
+- name: Bachelor of Engineering
   icon: fa-university
   timeframe: 2015-2019
   institution:
