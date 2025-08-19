@@ -1,0 +1,29 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Master of Information Science
+  icon: fa-graduation-cap
+  timeframe: 2019-2021
+  institution:
+    name: Tohoku University Graduate School of Information Sciences
+    url: "https://www.is.tohoku.ac.jp/"
+- name: Bachelor of Computer Science
+  icon: fa-university
+  timeframe: 2015-2019
+  institution:
+    name: Tohoku University
+    url: "https://www.eng.tohoku.ac.jp/"
+- name: High School Diploma
+  icon: fa-school
+  timeframe: 2012-2015
+  institution:
+    name: Chiba Prefectural Chiba-Higashi High School

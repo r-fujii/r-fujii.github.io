@@ -1,0 +1,23 @@
+<!-- copied from cards/publication.html -->
+
+{{ $dataCategories:= slice "achievements-all"}}
+{{ range .categories}}
+  {{ $dataCategories = $dataCategories | append (printf "achievements-%s" .)}}
+{{end}}
+
+<div
+  class="col-12 p-2 achievements-filtr-item"
+  data-category='{{ delimit $dataCategories ","}}'
+>
+  <div class="card mt-3">
+    <div class="card-header py-3">
+      <h5 class="card-title mb-0">{{ .title }}</h5>
+      <span class="achievement-date">{{ .date }}</span>
+    </div>
+    {{ if .note }}
+      <div class="card-body">
+        <p>{{ .note | markdownify }}</p>
+      </div>
+    {{ end }}
+  </div>
+</div>

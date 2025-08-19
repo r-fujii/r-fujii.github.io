@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Future Corporation
+    url: "https://www.future.co.jp"
+    location: Tokyo, Japan
+    # logo: /images/sections/experiences/company1.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: Future Corporation is an IT consulting company in Tokyo, Japan. The company provides values to clients with its "one-stop" policy, from designing the business flow to developing and maintaining the system all on our own.
+  positions:
+  - designation: Consultant
+    start: Apr 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Provide suggestions to clients and our members on NLP related projects
+    - Develop and deploy cutting-edge NLP technologies to production
+    - Promote wide-range NLP research in-company and in collaboration with universities
+
+- company:
+    name: Cookpad Inc. (Intern)
+    url: "https://cookpad.com"
+    location: Tokyo, Japan
+    # logo: /images/sections/experiences/company2.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company2.jpg
+    overview: Cookpad Inc. operates one of the largest recipe sharing platforms in Japan. The company sets its slogan as "Make everyday cooking fun" and aims to enrich people's lives through cooking.
+  positions:
+  - designation: Data Scientist Intern
+    start: Oct 2019
+    end: Oct 2019
+
+- company:
+    name: Recruit Technologies Co., Ltd. (Intern)
+    url: "https://www.recruit.co.jp/"
+    location: Tokyo, Japan
+    # logo: /images/sections/experiences/company3.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: Recruit Technologies Co., Ltd. (currently Recruit Co., Ltd.) works on next-generation R&D projects, supporting the development of new businesses in the Recruit Group.
+  positions:
+  - designation: Data Scientist Intern
+    start: Sep 2019
+    end: Sep 2019

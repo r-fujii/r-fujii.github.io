@@ -1,0 +1,222 @@
+# section information
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: "Journal Articles"
+  filter: "journal"
+- name: "Conference Papers"
+  filter: "conference"
+
+# your publications
+publications:
+- title: '機械翻訳モデルの頑健性評価に向けた言語現象毎データセットの構築と分析'
+  publishedIn:
+    name: 自然言語処理, Vol.28, No.2
+    date: Jun 2021
+  authors:
+  - name: 藤井 諒
+  - name: 三田 雅人
+  - name: 阿部 香央莉
+  - name: 塙 一晃
+  - name: 森下 睦
+  - name: 鈴木 潤
+  - name: 乾 健太郎
+  buttons:
+    - name: "Paper"
+      url: https://www.jstage.jst.go.jp/article/jnlp/28/2/28_450/_pdf/-char/ja
+    - name: "Dataset"
+      url: https://github.com/cl-tohoku/PheMT
+  categories: ["journal"]
+
+- title: 'PheMT: A Phenomenon-wise Dataset for Machine Translation Robustness on User-Generated Contents'
+  publishedIn:
+    name: The 28th International Conference on Computational Linguistics (COLING2020)
+    date: Dec 2020
+  authors:
+  - name: Ryo Fujii
+  - name: Masato Mita
+  - name: Kaori Abe
+  - name: Kazuaki Hanawa
+  - name: Makoto Morishita
+  - name: Jun Suzuki
+  - name: Kentaro Inui
+  buttons:
+    - name: "Paper"
+      url: https://www.aclweb.org/anthology/2020.coling-main.521
+    - name: "Poster"
+      url: https://github.com/r-fujii/r-fujii.github.io/blob/resources/resources/coling_201211_r-fujii.pdf
+    - name: "Dataset"
+      url: https://github.com/cl-tohoku/PheMT
+  categories: ["conference"]
+
+- title: 'Document-level Translation with LLM Reranking: Team-J at WMT 2024 General Translation Task'
+  publishedIn:
+    name: The Ninth Conference on Machine Translation (WMT2024)
+    date: Nov 2024
+  authors:
+  - name: Keito Kudo
+  - name: Hiroyuki Deguchi
+  - name: Makoto Morishita
+  - name: Ryo Fujii
+  - name: Takumi Ito
+  - name: Shintaro Ozaki
+  - name: Koki Natsumi
+  - name: Kai Sato
+  - name: Kazuki Yano
+  - name: Ryosuke Takahashi
+  - name: Subaru Kimura
+  - name: Tomomasa Hara
+  - name: Yusuke Sakai
+  - name: Jun Suzuki
+  buttons:
+    - name: "Paper"
+      url: https://aclanthology.org/2024.wmt-1.14.pdf
+  categories: ["conference"]
+
+- title: '日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響'
+  publishedIn:
+    name: 第264回自然言語処理研究発表会 (NL264)
+    date: Jul 2025
+  authors:
+  - name: 野末 慎之介
+  - name: 松林 優一郎
+  - name: 藤井 諒
+  - name: 岸波 洋介
+  - name: 森下 睦
+  - name: 坂口 慶祐
+  categories: ["conference"]
+
+- title: '「数」に着目したLLMの多言語能力の検証'
+  publishedIn:
+    name: 言語処理学会第31回年次大会 (NLP2025)
+    date: Mar 2025
+  authors:
+  - name: 羽根田 賢和
+  - name: 岸波 洋介
+  - name: 藤井 諒
+  - name: 森下 睦
+  buttons:
+    - name: "Paper"
+      url: https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/P2-13.pdf
+  categories: ["conference"]
+
+- title: 'Wikipediaリダイレクト情報を活用したエンティティベース質問応答データセットの構築'
+  publishedIn:
+    name: 言語処理学会第31回年次大会 (NLP2025)
+    date: Mar 2025
+  authors:
+  - name: 西田 悠人
+  - name: 志子田 直輝
+  - name: 岸波 洋介
+  - name: 藤井 諒
+  - name: 森下 睦
+  - name: 上垣外 英剛
+  - name: 渡辺 太郎
+  buttons:
+    - name: "Paper"
+      url: https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/P2-24.pdf
+    - name: "Dataset"
+      url: https://huggingface.co/datasets/naist-nlp/RedirectQA
+  categories: ["conference"]
+
+- title: '日本語によるコード生成能力の正確な評価に向けて'
+  publishedIn:
+    name: 言語処理学会第31回年次大会 (NLP2025)
+    date: Mar 2025
+  authors:
+  - name: 種口 暁人
+  - name: 藤井 諒
+  - name: 森下 睦
+  - name: 鈴木 潤
+  buttons:
+    - name: "Paper"
+      url: https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q6-9.pdf
+    - name: "Dataset"
+      url: https://huggingface.co/datasets/tohoku-nlp/JMultiPL-E
+  categories: ["conference"]
+
+- title: '新聞ドメインにおける大規模言語モデルの継続事前学習と下流タスクデータ量の関係'
+  publishedIn:
+    name: 言語処理学会第31回年次大会 (NLP2025)
+    date: Mar 2025
+  authors:
+  - name: 岸波 洋介
+  - name: 藤井 諒
+  - name: 森下 睦
+  buttons:
+    - name: "Paper"
+      url: https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q8-18.pdf
+  categories: ["conference"]
+
+- title: '機密情報検知における生成AIを用いたデータ拡張'
+  publishedIn:
+    name: 言語処理学会第30回年次大会 (NLP2024)
+    date: Mar 2024
+  authors:
+  - name: 岸波 洋介
+  - name: 藤井 諒
+  - name: 加藤 善大
+  buttons:
+    - name: "Paper"
+      url: https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P10-13.pdf
+  categories: ["conference"]
+
+- title: ' Towards Detecting Errors: Classifying Model-Generated Output in Chat Translation'
+  publishedIn:
+    name: Twenty-seventh Annual Meeting of the Association for Natural Language Processing (NLP2021)
+    date: Mar 2021
+  authors:
+  - name: Yunmeng Li
+  - name: Ryo Fujii
+  - name: Makoto Morishita
+  - name: Jun Suzuki
+  - name: Kentaro Inui
+  buttons:
+    - name: "Paper"
+      url: https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/A3-4.pdf
+  categories: ["conference"]
+
+- title: 'ユーザ生成コンテンツの高品質な自動翻訳に向けた言語現象の体系的分析'
+  publishedIn:
+    name: 第34回人工知能学会全国大会 (JSAI2020)
+    date: Jun 2020
+  authors:
+  - name: 藤井 諒
+  - name: 三田 雅人
+  - name: 阿部 香央莉
+  - name: 塙 一晃
+  - name: 森下 睦
+  - name: 鈴木 潤
+  - name: 乾 健太郎
+  buttons:
+    - name: "Paper"
+      url: https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_3Rin426/_pdf/-char/ja
+    - name: "Poster"
+      url: https://github.com/r-fujii/r-fujii.github.io/blob/resources/resources/jsai_200611_r-fujii.pdf
+  categories: ["conference"]
+
+- title: 'ニューラル機械翻訳における文脈情報の選択的利用'
+  publishedIn:
+    name: 言語処理学会第25回年次大会 (NLP2019)
+    date: Mar 2019
+  authors:
+  - name: 藤井 諒
+  - name: 清野 舜
+  - name: 鈴木 潤
+  - name: 乾 健太郎
+  buttons:
+    - name: "Paper"
+      url: http://www.anlp.jp/proceedings/annual_meeting/2019/pdf_dir/A6-3.pdf
+    - name: "Slides"
+      url: https://github.com/r-fujii/r-fujii.github.io/blob/resources/resources/nlp_190315_r-fujii.pdf
+  categories: ["conference"]

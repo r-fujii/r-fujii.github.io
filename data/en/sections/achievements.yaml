@@ -1,0 +1,36 @@
+# section information
+section:
+  name: "Achievements"
+  id: achievements
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: "Awards"
+  filter: "awards"
+- name: "Qualifications"
+  filter: "qualifications"
+
+# your publications
+achievements:
+- title: "東北大学総長賞 (Tohoku University The President's Award)"
+  date: Mar 2019
+  categories: ["awards"]
+- title: "日商簿記検定2級 (The Official Business Skills Test in Bookkeeping, 2nd Grade)"
+  date: Nov 2020
+  categories: ["qualifications"]
+- title: "基本情報技術者試験 (Fundamental Information Technology Engineer)"
+  date: Oct 2017
+  categories: ["qualifications"]
+- title: "TOEIC Listening & Reading Test 920点 (920 points)"
+  date: Jun 2017
+  categories: ["qualifications"]
+- title: "実用英語技能検定1級 (The Eiken Test in Practical English Proficiency, 1st Grade)"
+  date: Feb 2017
+  categories: ["qualifications"]

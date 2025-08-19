@@ -1,4 +1,7 @@
-themes/
+.vscode/
+node_modules/
+.DS_Store
+.history/
 resources/
-
-.gitignore
+public/
+.hugo_build.lock
