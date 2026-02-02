@@ -38,25 +38,21 @@ publications:
       url: https://github.com/cl-tohoku/PheMT
   categories: ["journal"]
 
-- title: 'PheMT: A Phenomenon-wise Dataset for Machine Translation Robustness on User-Generated Contents'
+- title: 'TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks'
   publishedIn:
-    name: The 28th International Conference on Computational Linguistics (COLING2020)
-    date: Dec 2020
+    name: The 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL2026, to appear)
+    date: Mar 2026
+    acceptanceRate: 20.1%
   authors:
   - name: Ryo Fujii
-  - name: Masato Mita
-  - name: Kaori Abe
-  - name: Kazuaki Hanawa
   - name: Makoto Morishita
+  - name: Kazuki Yano
   - name: Jun Suzuki
-  - name: Kentaro Inui
   buttons:
     - name: "Paper"
-      url: https://www.aclweb.org/anthology/2020.coling-main.521
-    - name: "Poster"
-      url: https://github.com/r-fujii/r-fujii.github.io/blob/resources/resources/coling_201211_r-fujii.pdf
-    - name: "Dataset"
-      url: https://github.com/cl-tohoku/PheMT
+      url: https://arxiv.org/pdf/2601.22597
+    - name: "GitHub"
+      url: https://github.com/tohoku-nlp/timemachine-bench
   categories: ["conference"]
 
 - title: 'Document-level Translation with LLM Reranking: Team-J at WMT 2024 General Translation Task'
@@ -81,6 +77,28 @@ publications:
   buttons:
     - name: "Paper"
       url: https://aclanthology.org/2024.wmt-1.14.pdf
+  categories: ["conference"]
+
+- title: 'PheMT: A Phenomenon-wise Dataset for Machine Translation Robustness on User-Generated Contents'
+  publishedIn:
+    name: The 28th International Conference on Computational Linguistics (COLING2020)
+    date: Dec 2020
+    acceptanceRate: 33.4%
+  authors:
+  - name: Ryo Fujii
+  - name: Masato Mita
+  - name: Kaori Abe
+  - name: Kazuaki Hanawa
+  - name: Makoto Morishita
+  - name: Jun Suzuki
+  - name: Kentaro Inui
+  buttons:
+    - name: "Paper"
+      url: https://aclanthology.org/2020.coling-main.521.pdf
+    - name: "Poster"
+      url: https://github.com/r-fujii/r-fujii.github.io/blob/resources/resources/coling_201211_r-fujii.pdf
+    - name: "Dataset"
+      url: https://github.com/cl-tohoku/PheMT
   categories: ["conference"]
 
 - title: '日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響'

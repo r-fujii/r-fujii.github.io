@@ -117,3 +117,25 @@ html[data-theme='dark'] {
     }
   }
 }
+
+.publications-section .card .card-header-top {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+}
+
+.publications-section .card .card-header-top .card-title {
+  padding-right: 1.5rem;
+}
+
+.publications-section .card .card-header-top .published-on {
+  margin-left: auto;
+  text-align: right;
+  flex-shrink: 0;
+
+  span {
+    color: #64748b;
+    font-size: 10pt;
+    white-space: nowrap;
+  }
+}

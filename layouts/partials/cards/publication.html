@@ -9,30 +9,43 @@
 >
   <div class="card mt-3">
     <div class="card-header pt-3">
-      <h5 class="card-title mb-0">{{ .title }}</h5>
-      <div class="sub-title">
-        <span>
-          {{ if .publishedIn.url }}
-          <a class="" href="{{.publishedIn.url}}">{{ .publishedIn.name }}</a>
+      <div class="card-header-top">
+        <h5 class="card-title mb-0">
+          <span class="pub-number"></span> {{ .title }}
+        </h5>
+        <div class="published-on">
+          <span>{{ .publishedIn.date }}</span>
+        </div>
+      </div>
+      <div class="card-header-bottom">
+        <div class="sub-title">
+          <span>
+            {{ if .publishedIn.url }}
+            <a class="" href="{{.publishedIn.url}}">{{ .publishedIn.name }}</a>
+            {{ else }}
+            <a class="">{{ .publishedIn.name }}</a>
+            {{ end }}
+            {{ if .publishedIn.acceptanceRate }}
+            <span class="ms-1 text-muted" style="float: none !important; font-size: 0.85rem; font-style: italic;">
+            (Acceptance Rate: {{ .publishedIn.acceptanceRate }})
+            </span>
+            {{ end }}
+          </span>
+        </div>
+        <div class="authors">
+          {{ range $index,$author:= .authors }}
+          {{if .url}}
+            <span class="me-2"><a class="" href="{{.url}}">{{ .name }}</a></span>
           {{ else }}
-          <a class="">{{ .publishedIn.name }}</a>
+          <span class="me-2 author-text">{{ .name }}</span>
           {{ end }}
-        </span>
-        <span class="ms-2">{{ .publishedIn.date }}</span>
-      </div>
-      <div class="authors">
-        {{ range $index,$author:= .authors }}
-        {{if .url}}
-          <span class="me-2"><a class="" href="{{.url}}">{{ .name }}</a></span>
-        {{ else }}
-        <span class="me-2 author-text">{{ .name }}</span>
-        {{ end }}
-        {{ end }}
+          {{ end }}
+        </div>
       </div>
     </div>
-    <div class="card-body">
+    <!-- <div class="card-body">
       <p>{{ .paper.summary | markdownify }}</p>
-    </div>
+    </div> -->
     <div class="card-footer">
       <div class="tags">
         {{ range $index,$tag:= .tags }}
