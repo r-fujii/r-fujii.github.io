@@ -101,6 +101,53 @@ publications:
       url: https://github.com/cl-tohoku/PheMT
   categories: ["conference"]
 
+- title: 'TimeMachine-bench: LLMは「あの日」のコードを最新環境に適応できるか？'
+  publishedIn:
+    name: 言語処理学会第32回年次大会 (NLP2026, to appear)
+    date: Mar 2026
+  authors:
+  - name: 藤井 諒
+  - name: 森下 睦
+  - name: 矢野 一樹
+  - name: 鈴木 潤
+  categories: ["conference"]
+
+- title: 'UI-Redline-bench: 赤入れ指示によるWebUIコード修正ベンチマーク'
+  publishedIn:
+    name: 言語処理学会第32回年次大会 (NLP2026, to appear)
+    date: Mar 2026
+  authors:
+  - name: 肥合 智史
+  - name: 藤井 諒
+  - name: 岸波 洋介
+  - name: 森下 睦
+  categories: ["conference"]
+
+- title: 'WikiOriginQA: 知識の起源を組み込んだ文化的バイアス分析用QAデータセットの自動構築'
+  publishedIn:
+    name: 言語処理学会第32回年次大会 (NLP2026, to appear)
+    date: Mar 2026
+  authors:
+  - name: 羽根田 賢和
+  - name: 岸波 洋介
+  - name: 藤井 諒
+  - name: 坂口 慶祐
+  - name: 森下 睦
+  categories: ["conference"]
+
+- title: '項の復元は必要か？日英機械翻訳における省略された項の扱いの分析'
+  publishedIn:
+    name: 言語処理学会第32回年次大会 (NLP2026, to appear)
+    date: Mar 2026
+  authors:
+  - name: 野末 慎之介
+  - name: 松林 優一郎
+  - name: 藤井 諒
+  - name: 岸波 洋介
+  - name: 森下 睦
+  - name: 坂口 慶祐
+  categories: ["conference"]
+
 - title: '日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響'
   publishedIn:
     name: 第264回自然言語処理研究発表会 (NL264)
