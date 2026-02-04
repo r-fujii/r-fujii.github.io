@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   new Filterizr('.filtr-publications', {
     gridItemsSelector: '.pub-filtr-item',
+    controlsSelector: '.pub-filtr-control',
     layout: 'vertical',
     callbacks: {
         onFilteringEnd: () => {
