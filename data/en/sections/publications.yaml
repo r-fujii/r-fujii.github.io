@@ -19,25 +19,6 @@ buttons:
 
 # your publications
 publications:
-- title: '機械翻訳モデルの頑健性評価に向けた言語現象毎データセットの構築と分析'
-  publishedIn:
-    name: 自然言語処理, Vol.28, No.2
-    date: Jun 2021
-  authors:
-  - name: 藤井 諒
-  - name: 三田 雅人
-  - name: 阿部 香央莉
-  - name: 塙 一晃
-  - name: 森下 睦
-  - name: 鈴木 潤
-  - name: 乾 健太郎
-  buttons:
-    - name: "Paper"
-      url: https://www.jstage.jst.go.jp/article/jnlp/28/2/28_450/_pdf/-char/ja
-    - name: "Dataset"
-      url: https://github.com/cl-tohoku/PheMT
-  categories: ["journal"]
-
 - title: 'TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks'
   publishedIn:
     name: The 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL2026, to appear)
@@ -110,6 +91,11 @@ publications:
   - name: 森下 睦
   - name: 矢野 一樹
   - name: 鈴木 潤
+  buttons:
+    - name: "Paper"
+      url: https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B8-3.pdf
+    - name: "GitHub"
+      url: https://github.com/tohoku-nlp/timemachine-bench
   categories: ["conference"]
 
 - title: 'UI-Redline-bench: 赤入れ指示によるWebUIコード修正ベンチマーク'
@@ -121,6 +107,9 @@ publications:
   - name: 藤井 諒
   - name: 岸波 洋介
   - name: 森下 睦
+  buttons:
+    - name: "Paper"
+      url: https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B8-1.pdf
   categories: ["conference"]
 
 - title: 'WikiOriginQA: 知識の起源を組み込んだ文化的バイアス分析用QAデータセットの自動構築'
@@ -133,6 +122,9 @@ publications:
   - name: 藤井 諒
   - name: 坂口 慶祐
   - name: 森下 睦
+  buttons:
+    - name: "Paper"
+      url: https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B9-19.pdf
   categories: ["conference"]
 
 - title: '項の復元は必要か？日英機械翻訳における省略された項の扱いの分析'
@@ -146,6 +138,9 @@ publications:
   - name: 岸波 洋介
   - name: 森下 睦
   - name: 坂口 慶祐
+  buttons:
+    - name: "Paper"
+      url: https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/C9-20.pdf
   categories: ["conference"]
 
 - title: '日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響'
@@ -235,6 +230,25 @@ publications:
     - name: "Paper"
       url: https://www.anlp.jp/proceedings/annual_meeting/2024/pdf_dir/P10-13.pdf
   categories: ["conference"]
+
+- title: '機械翻訳モデルの頑健性評価に向けた言語現象毎データセットの構築と分析'
+  publishedIn:
+    name: 自然言語処理, Vol.28, No.2
+    date: Jun 2021
+  authors:
+  - name: 藤井 諒
+  - name: 三田 雅人
+  - name: 阿部 香央莉
+  - name: 塙 一晃
+  - name: 森下 睦
+  - name: 鈴木 潤
+  - name: 乾 健太郎
+  buttons:
+    - name: "Paper"
+      url: https://www.jstage.jst.go.jp/article/jnlp/28/2/28_450/_pdf/-char/ja
+    - name: "Dataset"
+      url: https://github.com/cl-tohoku/PheMT
+  categories: ["journal"]
 
 - title: ' Towards Detecting Errors: Classifying Model-Generated Output in Chat Translation'
   publishedIn:
