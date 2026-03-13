@@ -3,6 +3,10 @@
   {{ $dataCategories = $dataCategories | append (printf "pub-%s" .)}}
 {{end}}
 
+{{
+  $me := slice "藤井 諒" "Ryo Fujii"
+}}
+
 <div
   class="col-12 p-2 pub-filtr-item"
   data-category='{{ delimit $dataCategories ","}}'
@@ -42,7 +46,11 @@
           {{if .url}}
             <span class="me-2"><a class="" href="{{.url}}">{{ .name }}</a></span>
           {{ else }}
-          <span class="me-2 author-text">{{ .name }}</span>
+          {{ if in $me .name }}
+            <span class="me-2 author-text" style="text-decoration: underline; text-underline-offset: 0.25em;">{{ .name }}</span>
+          {{ else }}
+            <span class="me-2 author-text">{{ .name }}</span>
+          {{ end }}
           {{ end }}
           {{ end }}
         </div>
