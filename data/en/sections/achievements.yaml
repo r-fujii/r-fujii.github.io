@@ -19,8 +19,13 @@ buttons:
 
 # your publications
 achievements:
+- title: "言語処理学会第32回年次大会 (NLP2026) 若手奨励賞 (Young Researcher Encouragement Award)"
+  date: Mar 2026
+  selectionRate: "21/517 = 4.1%"
+  categories: ["awards"]
 - title: "東北大学総長賞 (Tohoku University The President's Award)"
   date: Mar 2019
+  selectionRate: "26/2,447 = 1.1%"
   categories: ["awards"]
 - title: "日商簿記検定2級 (The Official Business Skills Test in Bookkeeping, 2nd Grade)"
   date: Nov 2020

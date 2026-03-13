@@ -12,6 +12,11 @@
   <div class="card mt-3">
     <div class="card-header py-3">
       <h5 class="card-title mb-0">{{ .title }}</h5>
+      {{ if .selectionRate }}
+      <span class="my-1 text-muted" style="float: none !important; font-size: 0.85rem;">
+      ({{ .selectionRate }})
+      </span>
+      {{ end }}
       <span class="achievement-date">{{ .date }}</span>
     </div>
     {{ if .note }}
