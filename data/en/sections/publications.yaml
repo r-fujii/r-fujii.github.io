@@ -84,7 +84,7 @@ publications:
 
 - title: 'TimeMachine-bench: LLMは「あの日」のコードを最新環境に適応できるか？'
   publishedIn:
-    name: 言語処理学会第32回年次大会 (NLP2026, to appear)
+    name: 言語処理学会第32回年次大会 (NLP2026)
     date: Mar 2026
   authors:
   - name: 藤井 諒
@@ -94,13 +94,15 @@ publications:
   buttons:
     - name: "Paper"
       url: https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B8-3.pdf
+    - name: "Poster"
+      url: https://github.com/r-fujii/r-fujii.github.io/blob/resources/resources/poster_timemachine-bench_NLP2026.pdf
     - name: "GitHub"
       url: https://github.com/tohoku-nlp/timemachine-bench
   categories: ["conference"]
 
 - title: 'UI-Redline-bench: 赤入れ指示によるWebUIコード修正ベンチマーク'
   publishedIn:
-    name: 言語処理学会第32回年次大会 (NLP2026, to appear)
+    name: 言語処理学会第32回年次大会 (NLP2026)
     date: Mar 2026
   authors:
   - name: 肥合 智史
@@ -110,11 +112,13 @@ publications:
   buttons:
     - name: "Paper"
       url: https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B8-1.pdf
+    - name: "Dataset"
+      url: https://huggingface.co/datasets/future-architect/UI-Redline-bench
   categories: ["conference"]
 
 - title: 'WikiOriginQA: 知識の起源を組み込んだ文化的バイアス分析用QAデータセットの自動構築'
   publishedIn:
-    name: 言語処理学会第32回年次大会 (NLP2026, to appear)
+    name: 言語処理学会第32回年次大会 (NLP2026)
     date: Mar 2026
   authors:
   - name: 羽根田 賢和
@@ -129,7 +133,7 @@ publications:
 
 - title: '項の復元は必要か？日英機械翻訳における省略された項の扱いの分析'
   publishedIn:
-    name: 言語処理学会第32回年次大会 (NLP2026, to appear)
+    name: 言語処理学会第32回年次大会 (NLP2026)
     date: Mar 2026
   authors:
   - name: 野末 慎之介
