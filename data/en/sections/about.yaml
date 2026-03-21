@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a senior consultant at Future Corporation, an IT consulting company in Tokyo, Japan. I am a member of the AI team, where I work on various projects related to artificial intelligence, mainly focusing on natural language processing (NLP). My work ranges from basic research to developing practical applications and delivering valuable suggestions to clients. I am also a PhD student (mature student) at Tohoku NLP Group in Sendai, Japan. My research interests include machine translation, multilinguality, code intelligence, and other NLP applications.'
+summary: 'I am a senior consultant at Future Corporation, an IT consulting company in Tokyo, Japan. I am a member of the AI team, where I work on various projects related to artificial intelligence, mainly focusing on Natural Language Processing (NLP). My work ranges from fundamental research to developing practical applications and delivering valuable suggestions to clients. I am also a Ph.D. student (mature student) at Tohoku NLP Group in Miyagi, Japan. My research interests include machine translation, multilinguality, code intelligence, and other types of data-centric research on NLP.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -28,9 +28,13 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://github.com/r-fujii"
 
-- name: Twitter
+- name: X
   icon: "fab fa-twitter"
   url: "https://x.com/fjry0_"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/ryo-fujii-8aa0a13b9"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
