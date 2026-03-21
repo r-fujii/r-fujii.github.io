@@ -23,7 +23,7 @@ publications:
   publishedIn:
     name: The 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL2026, to appear)
     date: Mar 2026
-    acceptanceRate: 20.1%
+    acceptanceRate: 20.2%
   authors:
   - name: Ryo Fujii
   - name: Makoto Morishita
@@ -31,7 +31,7 @@ publications:
   - name: Jun Suzuki
   buttons:
     - name: "Paper"
-      url: https://arxiv.org/pdf/2601.22597
+      url: https://aclanthology.org/2026.eacl-long.385.pdf
     - name: "GitHub"
       url: https://github.com/tohoku-nlp/timemachine-bench
   categories: ["conference"]
