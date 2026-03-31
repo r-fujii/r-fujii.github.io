@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Senior Consultant
+designation: Architect (Senior NLP Engineer)
 # your company information
 company:
   name: Future Corporation
@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a senior consultant at Future Corporation, an IT consulting company in Tokyo, Japan. I am a member of the AI team, where I work on various projects related to artificial intelligence, mainly focusing on Natural Language Processing (NLP). My work ranges from fundamental research to developing practical applications and delivering valuable suggestions to clients. I am also a Ph.D. student (mature student) at Tohoku NLP Group in Miyagi, Japan. My research interests include machine translation, multilinguality, code intelligence, and other types of data-centric research on NLP.'
+summary: 'I am an architect (a senior specialist role) at Future Corporation, an IT consulting company in Tokyo, Japan. I am a member of the AI team, where I work on various projects related to artificial intelligence, mainly focusing on Natural Language Processing (NLP). My work ranges from fundamental research to developing practical applications and delivering valuable suggestions to clients. I am also a Ph.D. student (mature student) at Tohoku NLP Group in Miyagi, Japan. My research interests include machine translation, multilinguality, code intelligence, and other types of data-centric research on NLP.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
