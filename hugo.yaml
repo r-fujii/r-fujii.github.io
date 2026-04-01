@@ -289,3 +289,5 @@ params:
 caches:
   images:
     dir: :cacheDir/images
+
+timezone: "Asia/Tokyo"
