@@ -21,7 +21,7 @@ buttons:
 publications:
 - title: 'TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks'
   publishedIn:
-    name: The 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL2026, to appear)
+    name: Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL2026)
     date: Mar 2026
     acceptanceRate: 20.2%
   authors:
@@ -32,13 +32,15 @@ publications:
   buttons:
     - name: "Paper"
       url: https://aclanthology.org/2026.eacl-long.385.pdf
+    - name: "Poster"
+      url: https://github.com/r-fujii/r-fujii.github.io/blob/resources/resources/poster_timemachine-bench_EACL2026.pdf
     - name: "GitHub"
       url: https://github.com/tohoku-nlp/timemachine-bench
   categories: ["conference"]
 
 - title: 'Document-level Translation with LLM Reranking: Team-J at WMT 2024 General Translation Task'
   publishedIn:
-    name: The Ninth Conference on Machine Translation (WMT2024)
+    name: Proceedings of the Ninth Conference on Machine Translation (WMT2024)
     date: Nov 2024
   authors:
   - name: Keito Kudo
@@ -62,7 +64,7 @@ publications:
 
 - title: 'PheMT: A Phenomenon-wise Dataset for Machine Translation Robustness on User-Generated Contents'
   publishedIn:
-    name: The 28th International Conference on Computational Linguistics (COLING2020)
+    name: Proceedings of the 28th International Conference on Computational Linguistics (COLING2020)
     date: Dec 2020
     acceptanceRate: 33.4%
   authors:
