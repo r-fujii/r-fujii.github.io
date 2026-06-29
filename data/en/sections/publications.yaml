@@ -33,7 +33,7 @@ publications:
   - name: Taro Watanabe
   buttons:
     - name: "Paper"
-      url: https://arxiv.org/pdf/2604.21882
+      url: https://aclanthology.org/2026.acl-long.2178.pdf
     - name: "Dataset"
       url: https://huggingface.co/datasets/naist-nlp/RedirectQA
   categories: ["conference"]
