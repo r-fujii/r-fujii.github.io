@@ -21,8 +21,9 @@ buttons:
 publications:
 - title: 'Revisiting Non-Verbatim Memorization in Large Language Models: The Role of Entity Surface Forms'
   publishedIn:
-    name: Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL2026, to appear)
+    name: Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL2026)
     date: Jul 2026
+    acceptanceRate: 18.9%
   authors:
   - name: Yuto Nishida
   - name: Naoki Shikoda
