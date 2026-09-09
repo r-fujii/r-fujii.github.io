@@ -19,9 +19,34 @@ buttons:
 
 # your publications
 publications:
+- title: 'WikiOriginQA: Automated Construction of a QA Dataset with Knowledge Origins for Analyzing Cultural Bias'
+  publishedIn:
+    name: Proceedings of the 5th Asia-Pacific Chapter of the Association for Computational Linguistics & the 15th International Joint Conference on Natural Language Processing (AACL-IJCNLP 2026, to appear)
+    date: Nov 2026
+  authors:
+  - name: Kento Haneda
+  - name: Yosuke Kishinami
+  - name: Ryo Fujii
+  - name: Keisuke Sakaguchi
+  - name: Makoto Morishita
+  categories: ["conference"]
+
+- title: 'RFMT at WMT 2026 General Translation Task'
+  publishedIn:
+    name: Proceedings of the Eleventh Conference on Machine Translation (WMT 2026, to appear)
+    date: Oct 2026
+  authors:
+  - name: Ryosuke Matsuda
+  - name: Keito Kudo
+  - name: Ryo Fujii
+  - name: Takumi Ito
+  - name: Makoto Morishita
+  - name: Jun Suzuki
+  categories: ["conference"]
+
 - title: 'Revisiting Non-Verbatim Memorization in Large Language Models: The Role of Entity Surface Forms'
   publishedIn:
-    name: Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL2026)
+    name: Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)
     date: Jul 2026
     acceptanceRate: 18.9%
   authors:
@@ -41,7 +66,7 @@ publications:
 
 - title: 'TimeMachine-bench: A Benchmark for Evaluating Model Capabilities in Repository-Level Migration Tasks'
   publishedIn:
-    name: Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL2026)
+    name: Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026)
     date: Mar 2026
     acceptanceRate: 20.2%
   authors:
@@ -60,7 +85,7 @@ publications:
 
 - title: 'Document-level Translation with LLM Reranking: Team-J at WMT 2024 General Translation Task'
   publishedIn:
-    name: Proceedings of the Ninth Conference on Machine Translation (WMT2024)
+    name: Proceedings of the Ninth Conference on Machine Translation (WMT 2024)
     date: Nov 2024
   authors:
   - name: Keito Kudo
@@ -84,7 +109,7 @@ publications:
 
 - title: 'PheMT: A Phenomenon-wise Dataset for Machine Translation Robustness on User-Generated Contents'
   publishedIn:
-    name: Proceedings of the 28th International Conference on Computational Linguistics (COLING2020)
+    name: Proceedings of the 28th International Conference on Computational Linguistics (COLING 2020)
     date: Dec 2020
     acceptanceRate: 33.4%
   authors:
@@ -106,7 +131,7 @@ publications:
 
 - title: 'TimeMachine-bench: LLMは「あの日」のコードを最新環境に適応できるか？'
   publishedIn:
-    name: 言語処理学会第32回年次大会 (NLP2026)
+    name: 言語処理学会第32回年次大会 (NLP 2026)
     date: Mar 2026
     honors:
       title: "若手奨励賞"
@@ -120,14 +145,14 @@ publications:
     - name: "Paper"
       url: https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B8-3.pdf
     - name: "Poster"
-      url: https://github.com/r-fujii/r-fujii.github.io/blob/resources/resources/poster_timemachine-bench_NLP2026.pdf
+      url: https://github.com/r-fujii/r-fujii.github.io/blob/resources/resources/poster_timemachine-bench_NLP 2026.pdf
     - name: "GitHub"
       url: https://github.com/tohoku-nlp/timemachine-bench
   categories: ["conference"]
 
 - title: 'UI-Redline-bench: 赤入れ指示によるWebUIコード修正ベンチマーク'
   publishedIn:
-    name: 言語処理学会第32回年次大会 (NLP2026)
+    name: 言語処理学会第32回年次大会 (NLP 2026)
     date: Mar 2026
   authors:
   - name: 肥合 智史
@@ -143,7 +168,7 @@ publications:
 
 - title: 'WikiOriginQA: 知識の起源を組み込んだ文化的バイアス分析用QAデータセットの自動構築'
   publishedIn:
-    name: 言語処理学会第32回年次大会 (NLP2026)
+    name: 言語処理学会第32回年次大会 (NLP 2026)
     date: Mar 2026
   authors:
   - name: 羽根田 賢和
@@ -158,7 +183,7 @@ publications:
 
 - title: '項の復元は必要か？日英機械翻訳における省略された項の扱いの分析'
   publishedIn:
-    name: 言語処理学会第32回年次大会 (NLP2026)
+    name: 言語処理学会第32回年次大会 (NLP 2026)
     date: Mar 2026
   authors:
   - name: 野末 慎之介
@@ -174,7 +199,7 @@ publications:
 
 - title: '日英翻訳タスクにおける大規模言語モデルのゼロ照応解析性能の影響'
   publishedIn:
-    name: 第264回自然言語処理研究発表会 (NL264)
+    name: 第264回自然言語処理研究発表会 (NL 264)
     date: Jul 2025
   authors:
   - name: 野末 慎之介
@@ -187,7 +212,7 @@ publications:
 
 - title: '「数」に着目したLLMの多言語能力の検証'
   publishedIn:
-    name: 言語処理学会第31回年次大会 (NLP2025)
+    name: 言語処理学会第31回年次大会 (NLP 2025)
     date: Mar 2025
   authors:
   - name: 羽根田 賢和
@@ -201,7 +226,7 @@ publications:
 
 - title: 'Wikipediaリダイレクト情報を活用したエンティティベース質問応答データセットの構築'
   publishedIn:
-    name: 言語処理学会第31回年次大会 (NLP2025)
+    name: 言語処理学会第31回年次大会 (NLP 2025)
     date: Mar 2025
   authors:
   - name: 西田 悠人
@@ -220,7 +245,7 @@ publications:
 
 - title: '日本語によるコード生成能力の正確な評価に向けて'
   publishedIn:
-    name: 言語処理学会第31回年次大会 (NLP2025)
+    name: 言語処理学会第31回年次大会 (NLP 2025)
     date: Mar 2025
   authors:
   - name: 種口 暁人
@@ -236,7 +261,7 @@ publications:
 
 - title: '新聞ドメインにおける大規模言語モデルの継続事前学習と下流タスクデータ量の関係'
   publishedIn:
-    name: 言語処理学会第31回年次大会 (NLP2025)
+    name: 言語処理学会第31回年次大会 (NLP 2025)
     date: Mar 2025
   authors:
   - name: 岸波 洋介
@@ -249,7 +274,7 @@ publications:
 
 - title: '機密情報検知における生成AIを用いたデータ拡張'
   publishedIn:
-    name: 言語処理学会第30回年次大会 (NLP2024)
+    name: 言語処理学会第30回年次大会 (NLP 2024)
     date: Mar 2024
   authors:
   - name: 岸波 洋介
@@ -281,7 +306,7 @@ publications:
 
 - title: ' Towards Detecting Errors: Classifying Model-Generated Output in Chat Translation'
   publishedIn:
-    name: Twenty-seventh Annual Meeting of the Association for Natural Language Processing (NLP2021)
+    name: Twenty-seventh Annual Meeting of the Association for Natural Language Processing (NLP 2021)
     date: Mar 2021
   authors:
   - name: Yunmeng Li
@@ -296,7 +321,7 @@ publications:
 
 - title: 'ユーザ生成コンテンツの高品質な自動翻訳に向けた言語現象の体系的分析'
   publishedIn:
-    name: 第34回人工知能学会全国大会 (JSAI2020)
+    name: 第34回人工知能学会全国大会 (JSAI 2020)
     date: Jun 2020
   authors:
   - name: 藤井 諒
@@ -315,7 +340,7 @@ publications:
 
 - title: 'ニューラル機械翻訳における文脈情報の選択的利用'
   publishedIn:
-    name: 言語処理学会第25回年次大会 (NLP2019)
+    name: 言語処理学会第25回年次大会 (NLP 2019)
     date: Mar 2019
   authors:
   - name: 藤井 諒
