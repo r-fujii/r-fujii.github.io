@@ -19,21 +19,38 @@ buttons:
 
 # your publications
 publications:
+- title: 'UI-Redline-bench: A Benchmark for Web UI Code Modification based on Redline Instructions'
+  publishedIn:
+    name: 'Findings of the Association for Computational Linguistics: EACL 2027 (to appear)'
+    date: Mar 2027
+  authors:
+  - name: Satoshi Hiai
+  - name: Ryo Fujii
+  - name: Yosuke Kishinami
+  - name: Makoto Morishita
+  categories: ["conference"]
+
 - title: 'WikiOriginQA: Automated Construction of a QA Dataset with Knowledge Origins for Analyzing Cultural Bias'
   publishedIn:
-    name: Proceedings of the 5th Asia-Pacific Chapter of the Association for Computational Linguistics & the 15th International Joint Conference on Natural Language Processing (AACL-IJCNLP 2026, to appear)
+    name: Proceedings of the 5th Asia-Pacific Chapter of the Association for Computational Linguistics & the 15th International Joint Conference on Natural Language Processing (AACL-IJCNLP 2026)
     date: Nov 2026
+    acceptanceRate: 45.7%
   authors:
   - name: Kento Haneda
   - name: Yosuke Kishinami
   - name: Ryo Fujii
   - name: Keisuke Sakaguchi
   - name: Makoto Morishita
+  buttons:
+    - name: "Paper"
+      url: https://aclanthology.org/2026.aacl-short.6.pdf
+    - name: "Dataset"
+      url: https://huggingface.co/datasets/future-architect/WikiOriginQA
   categories: ["conference"]
 
 - title: 'RFMT at WMT 2026 General Translation Task'
   publishedIn:
-    name: Proceedings of the Eleventh Conference on Machine Translation (WMT 2026, to appear)
+    name: Proceedings of the Eleventh Conference on Machine Translation (WMT 2026)
     date: Oct 2026
   authors:
   - name: Ryosuke Matsuda
@@ -42,6 +59,13 @@ publications:
   - name: Takumi Ito
   - name: Makoto Morishita
   - name: Jun Suzuki
+  buttons:
+    - name: "Paper"
+      url: https://aclanthology.org/2026.wmt-main.73.pdf
+    - name: "Model"
+      url: https://huggingface.co/tohoku-nlp/RFMT
+    - name: "Dataset"
+      url: https://huggingface.co/datasets/tohoku-nlp/CAJALA
   categories: ["conference"]
 
 - title: 'Revisiting Non-Verbatim Memorization in Large Language Models: The Role of Entity Surface Forms'
